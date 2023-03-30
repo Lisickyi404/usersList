@@ -1,0 +1,42 @@
+/* обращаемся ко всем элементам на страничке */
+body{
+    background: #B4CDFF;
+    min-height:100vh;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+    max-width:1000px;
+    margin:0 auto;
+}
+
+ul{
+    list-style:none;
+}
+
+.userCard{
+    background:white;
+    padding:15px;
+    width:250px;
+}
+
+.parametr{
+    display:flex;
+    justify-content:space-between;
+}
+
+.username{
+    text-align:center;
+}
+
+.users_list{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
